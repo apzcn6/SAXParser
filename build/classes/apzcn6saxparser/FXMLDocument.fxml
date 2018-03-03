@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="458.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="apzcn6saxparser.FXMLDocumentController">
+    <children>
+      <VBox prefHeight="389.0" prefWidth="458.0">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="320.0">
+              <menus>
+                <Menu mnemonicParsing="false" onAction="#handleOpen" text="Open">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#handleAbout" text="About">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <TextArea fx:id="textArea" prefHeight="368.0" prefWidth="458.0" />
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
